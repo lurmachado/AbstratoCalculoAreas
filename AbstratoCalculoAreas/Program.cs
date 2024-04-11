@@ -12,7 +12,7 @@ namespace AbstratoCalculoAreas
         {
             List<Shape> list = new List<Shape>();
 
-            Console.Write("Enter the number of shapes: ");
+            Console.Write("******Enter the number of shapes: ");
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= n; i++)
